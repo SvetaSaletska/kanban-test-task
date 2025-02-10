@@ -1,19 +1,12 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "ESNext",
-    "moduleResolution": "node",
-    "rootDir": "./src",
-    "outDir": "./dist",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "allowSyntheticDefaultImports": true,
-    "allowImportingTsExtensions": true, // Enable '.ts' extensions in import paths
-    "resolveJsonModule": true // Optional: for importing JSON modules if needed
+  "target": "ES6",
+  "module": "CommonJS",
+  "rootDir": "./src",
+  "outDir": "./dist",
+  "strict": true,
+  "esModuleInterop": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
-}
-
+ }

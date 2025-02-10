@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --watch src --exec ts-node src/index.ts"
@@ -13,12 +13,16 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "env": "^0.0.2",
     "express": "^4.21.2",
-    "nodemon": "^3.1.9"
+    "mongoose": "^8.10.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
-    "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
   }
 }
