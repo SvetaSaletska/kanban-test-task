@@ -3,7 +3,6 @@ import { createBoardController, getBoardController, updateBoardController, delet
 
 const router = Router();
 
-// Маршрути для роботи з дошками
 router.post('/boards', createBoardController);
 router.get('/boards/:id', getBoardController);
 router.put('/boards/:id', updateBoardController);

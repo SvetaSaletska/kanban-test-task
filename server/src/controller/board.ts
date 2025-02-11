@@ -1,7 +1,6 @@
 import { Request, Response } from 'express';
 import {createBoard, getBoardById, updateBoard, deleteBoard} from '../services/board';
 
-// Створення нової дошки
 export const createBoardController = async (req: Request, res: Response) => {
   try {
     const { name } = req.body;
@@ -16,7 +15,6 @@ export const createBoardController = async (req: Request, res: Response) => {
   }
 };
 
-// Отримання дошки за ID
 export const getBoardController = async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
@@ -35,7 +33,6 @@ export const getBoardController = async (req: Request, res: Response) => {
   }
 };
 
-// Оновлення дошки
 export const updateBoardController = async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
@@ -55,7 +52,6 @@ export const updateBoardController = async (req: Request, res: Response) => {
   }
 };
 
-// Видалення дошки
 export const deleteBoardController = async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
