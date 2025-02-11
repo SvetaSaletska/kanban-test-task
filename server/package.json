@@ -16,9 +16,11 @@
     "dotenv": "^16.4.7",
     "env": "^0.0.2",
     "express": "^4.21.2",
+    "mongodb": "^6.13.0",
     "mongoose": "^8.10.0",
     "nodemon": "^3.1.9",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "uuid": "^11.0.5"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
